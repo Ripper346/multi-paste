@@ -1,0 +1,25 @@
+{
+  "name": "multi-paste",
+  "main": "./lib/multi-paste",
+  "version": "0.1.0",
+  "description": "Adds functionality to paste ranges into multiple selections in atom",
+  "activationCommands": {
+   "atom-workspace": [
+     "multi-paste:0-to-X",
+     "multi-paste:1-to-X"
+   ]
+  },
+  "keywords": [
+    "multiple selections",
+    "multiple cursors",
+    "paste",
+    "range"
+  ],
+  "repository": "https://github.com/atom/multi-paste",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

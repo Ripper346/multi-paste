@@ -1,0 +1,44 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "multi-paste",
+        "submenu": [
+          {
+            "label": "Paste 0 to X",
+            "command": "multi-paste:0-to-X"
+          },
+          {
+            "label": "Paste 1 to X",
+            "command": "multi-paste:1-to-X"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "multi-paste",
+          "submenu": [
+            {
+              "label": "Paste 0 to X",
+              "command": "multi-paste:0-to-X"
+            }
+          ]
+        },
+        {
+          "label": "multi-paste",
+          "submenu": [
+            {
+              "label": "Pate 1 to X",
+              "command": "multi-paste:1-to-X"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
