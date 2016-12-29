@@ -6,7 +6,8 @@ An [Atom](https://atom.io) package that enhances Atoms pasting operations in com
 * Paste a range of numbers into multiple selections
   * 0 to X
   * 1 to X
+  * Paste custom range of the form: **start_value step_value**
 
-<!-- ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif) -->
+![screenshot of multi-paste](https://github.com/bsaendig/multi-paste/blob/master/multi-paste.gif)
 
 There was already a [Text Pastry package](https://atom.io/packages/text-pastry) for Atom, but it was implemented on an old Atom version and seemed discontinued. So i started my own.

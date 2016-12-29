@@ -1,24 +1,76 @@
 {
-  "name": "multi-paste",
-  "main": "./lib/multi-paste",
-  "version": "0.2.0",
-  "description": "Adds functionality to paste ranges into multiple selections in atom",
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+        "spec": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1161128-15805-1k9gc5h"
+    ]
+  ],
+  "_from": "../d-1161128-15805-1xq0gib/package.tgz",
+  "_id": "multi-paste@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/multi-paste",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+    "spec": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161128-15805-1xq0gib/package.tgz",
+  "_shasum": "b30f2e7224ec81705b1f3b966eef27b84e3f68b3",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-1161128-15805-1xq0gib/package.tgz",
+  "_where": "/tmp/apm-install-dir-1161128-15805-1k9gc5h",
   "activationCommands": {
     "atom-workspace": [
       "multi-paste:0-to-X",
-      "multi-paste:1-to-X"
+      "multi-paste:1-to-X",
+      "multi-paste:custom-range"
     ]
   },
+  "bugs": {
+    "url": "https://github.com/bsaendig/multi-paste/issues"
+  },
+  "dependencies": {},
+  "description": "Adds functionality to paste ranges into multiple selections in atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/bsaendig/multi-paste#readme",
   "keywords": [
     "multiple selections",
     "multiple cursors",
     "paste",
-    "range"
+    "range",
+    "text",
+    "pastry",
+    "text-pastry"
   ],
-  "repository": "https://github.com/bsaendig/multi-paste",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "main": "./lib/multi-paste",
+  "name": "multi-paste",
+  "optionalDependencies": {},
+  "readme": "# multi-paste\n\nAn [Atom](https://atom.io) package that enhances Atoms pasting operations in combination with multiple selections. This was inspired by the [Text Pastry plugin for Sublime Text](https://github.com/duydao/Text-Pastry).\n\n## Features\n* Paste a range of numbers into multiple selections\n  * 0 to X\n  * 1 to X\n\n<!-- ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif) -->\n\nThere was already a [Text Pastry package](https://atom.io/packages/text-pastry) for Atom, but it was implemented on an old Atom version and seemed discontinued. So i started my own.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsaendig/multi-paste.git"
   },
-  "dependencies": {}
+  "version": "0.2.0"
 }

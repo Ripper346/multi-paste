@@ -11,6 +11,10 @@
           {
             "label": "Paste 1 to X",
             "command": "multi-paste:1-to-X"
+          },
+          {
+            "label": "Paste Custom Range",
+            "command": "multi-paste:custom-range"
           }
         ]
       }
