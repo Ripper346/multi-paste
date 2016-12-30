@@ -14,6 +14,7 @@ An [Atom](https://atom.io) package that enhances Atoms pasting operations in com
 
 The commands are:
   * 'multi-paste:0-to-X'
+  * 'multi-paste:1-to-X'
   * 'multi-paste:custom-range'
 
 Add them in your keymap.cson like:
