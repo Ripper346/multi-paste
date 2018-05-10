@@ -33,7 +33,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ripper346/multi-paste.git"
+    "url": "https://github.com/Ripper346/multi-paste.git"
   },
   "version": "0.3.1"
 }
