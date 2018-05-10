@@ -6,3 +6,7 @@
 * Added functionality for user chosen custom ranges via a toggled view.
 * Fixed a Bug with Pasting to multiple cursors in same line.
 * Added intuitive focus changes and multiple Cursors after command execution.
+
+## 0.4.0 - Padding
+* Added padding functionality.
+* Selections are now sorted before insert text.
