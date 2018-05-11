@@ -1,6 +1,6 @@
 # multi-paste2
 
-An [Atom](https://atom.io) package that enhances Atoms pasting operations in combination with multiple selections. This was inspired by the [Text Pastry plugin for Sublime Text](https://github.com/duydao/Text-Pastry) and [multi-paste](https://github.com/bsaendig/multi-paste).
+An [Atom](https://atom.io) package that enhances Atoms pasting operations in combination with multiple selections. This was inspired by the [Text Pastry plugin for Sublime Text](https://github.com/duydao/Text-Pastry) and forked from [multi-paste](https://github.com/bsaendig/multi-paste).
 
 ## Features
 * Paste a range of numbers into multiple selections
@@ -8,7 +8,7 @@ An [Atom](https://atom.io) package that enhances Atoms pasting operations in com
   * 1 to X
   * Paste custom range of the form: **start_value [step_value [padding]]**
 
-![screenshot of multi-paste](https://raw.githubusercontent.com/bsaendig/multi-paste/master/multi-paste.gif)
+![screenshot of multi-paste](https://raw.githubusercontent.com/Ripper346/multi-paste/master/multi-paste.gif)
 
 ## Keybindings
 
